@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
+    <title>Random Card</title>
 </head>
+
 <body>
-    
+    <!-- clase general -->
+    <div class="containerGeneral">
+        <!-- clase de la carta completa -->
+        <div>
+            <button id="botoncito" type="button">Generate new card</button>
+        </div>
+        <div id="padre" class="card">
+            <!-- clase del signo de arriba -->
+            <div>
+                <span id="parteArribaCarta"></span>
+            </div>
+            <!-- clase del numero -->
+            <div>
+                <span id="numeroCarta"></span>
+            </div>
+            <!-- clase del signo de abajo -->
+            <div>
+                <span id="parteAbajoCarta"></span>
+            </div>
+        </div>
+    </div>
 
-
-
-    <link rel="text/javascript" href="app.js">    
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>

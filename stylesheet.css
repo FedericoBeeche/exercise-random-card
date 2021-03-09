@@ -1,0 +1,28 @@
+body {
+    background-color: slategrey;
+}
+
+.card {
+    width: 420px;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: white;
+    padding: 0px;
+}
+
+#numeroCarta {
+    font-size: 200px;
+    text-align: center;
+}
+
+.black {
+    color: black;
+    font-size: 150px;
+}
+
+.red {
+    color: red;
+    font-size: 150px;
+}
