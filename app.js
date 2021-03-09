@@ -13,18 +13,24 @@ function genCardType() {
     if (tipoCartaIndex == 0 || tipoCartaIndex == 1) {
         document.querySelector('.card').classList.add("red");
     } else {
+        document.querySelector('.card').classList.remove("red");
         document.querySelector('.card').classList.add("black");
     }
 }
-//intervalo para generar una nueva carta
-setInterval(randomCard, 10000)
-//boton que genera carta nueva
-var boton = document.getElementById('botoncito');
-boton.addEventListener('click', randomCard);
 
+//funcion que llama a las que cambian
 function randomCard() {
     genNum();
     genCardType();
 }
 //esto genera la carta cuando carga la pagina
 randomCard();
+
+//intervalo para generar una nueva carta
+setInterval(randomCard, 2000);
+
+//boton que genera carta nueva
+var boton = document.getElementById('botoncito');
+boton.addEventListener('click', randomCard);
+
+//agregar width y height del user
