@@ -1,5 +1,5 @@
 body {
-    background-color: slategrey;
+    background-image: linear-gradient(to right, #A5DCFF, #E9A5FF)
 }
 
 .card {
@@ -9,8 +9,8 @@ body {
     border-radius: 10px;
     border: 1px black solid;
     background-color: white;
-    padding: 0px;
     box-shadow: 5px 10px 25px black;
+    margin-top: 10px;
 }
 
 #numeroCarta {
@@ -21,9 +21,16 @@ body {
 .black {
     color: black;
     font-size: 150px;
+    position: relative;
 }
 
 .red {
     color: red;
     font-size: 150px;
+    position: relative;
+}
+
+#parteAbajoCarta {
+    transform: rotate(180deg);
+    float: right;
 }

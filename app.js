@@ -33,16 +33,18 @@ setInterval(randomCard, 10000);
 var boton = document.getElementById('botoncito');
 boton.addEventListener('click', randomCard);
 
+
+
 //agregar width y height del user
+//consegui que funcione pero no logre que los elementos se escalen con la carta
 
-var inputHeight = document.querySelector('#inputHeight');
-inputHeight.addEventListener("change", function cambiosHeight(param1) {
-    document.querySelector('.card').style.height = `${param1.target.value}px`;
-    document.querySelector()
-})
+// var inputHeight = document.querySelector('#inputHeight');
+// inputHeight.addEventListener("change", function cambiosHeight(param1) {
+//     document.querySelector('.card').style.height = `${param1.target.value}px`;
+//     document.querySelector()
+// })
 
-var inputWidth = document.querySelector('#inputWidth');
-inputWidth.addEventListener("change", function cambiosWidth(param2) {
-    document.querySelector('.card').style.width = `${param2.target.value}px`;
-})
-
+// var inputWidth = document.querySelector('#inputWidth');
+// inputWidth.addEventListener("change", function cambiosWidth(param2) {
+//     document.querySelector('.card').style.width = `${param2.target.value}px`;
+// })
