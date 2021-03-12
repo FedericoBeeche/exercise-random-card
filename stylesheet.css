@@ -5,32 +5,38 @@ body {
 .card {
     width: 420px;
     height: 600px;
-    margin: auto;
     border-radius: 10px;
     border: 1px black solid;
     background-color: white;
     box-shadow: 5px 10px 25px black;
-    margin-top: 10px;
+    margin: auto;
 }
 
 #numeroCarta {
-    font-size: 200px;
+    font-size: 160px;
     text-align: center;
-}
-
-.black {
-    color: black;
-    font-size: 150px;
-    position: relative;
-}
-
-.red {
-    color: red;
-    font-size: 150px;
-    position: relative;
 }
 
 #parteAbajoCarta {
     transform: rotate(180deg);
     float: right;
+    padding-left: 20px;
+}
+
+#parteArribaCarta {
+    padding-left: 20px;
+}
+
+.black {
+    color: black;
+    font-size: 150px;
+}
+
+.red {
+    color: red;
+    font-size: 150px;
+}
+
+#botoncito {
+    margin-bottom: 20px;
 }

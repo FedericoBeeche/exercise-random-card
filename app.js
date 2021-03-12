@@ -33,8 +33,6 @@ setInterval(randomCard, 10000);
 var boton = document.getElementById('botoncito');
 boton.addEventListener('click', randomCard);
 
-
-
 //agregar width y height del user
 //consegui que funcione pero no logre que los elementos se escalen con la carta
 
